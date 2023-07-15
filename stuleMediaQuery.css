@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family= Montserrat :wght@100 & display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+@media (min-width: 250px ) and (max-width:  450px) {
+    
+    body {
+        background-color: var(--backgroundColorDark);
+        
+        
+    }
+    section {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+    }
+    .circle {
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        border: solid 150px #FF8C04;
+        border-radius: 50%;
+        bottom: -550px;
+        right: -500px ;
+    }
+    .circleblue{
+        position: absolute;
+        border: solid 150px #0487FF;
+        top: -550px;
+        left: -500px ;
+    }
+
+    .card {
+        /* psition and size*/
+        top: -50px;
+        width: 80%;
+    }
+
+}
+    
+
+
+
+
+
+/*==========================================================================*/
+
+/*==========================================================================*/
+
+/*==========================================================================*/
+
+/*==========================================================================*/
+
+
+
+
+
+
+
+
+
+@media (min-width:450px) and (max-width: 620px) {
+    
+
+    body {
+        background-color: var(--backgroundColorDark);
+        
+    }
+    section {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+    }
+    .circle {
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        border: solid 150px #FF8C04;
+        border-radius: 50%;
+        bottom: -550px;
+        right: -500px ;
+    }
+    .circleblue{
+        position: absolute;
+        border: solid 150px #0487FF;
+        top: -550px;
+        left: -500px ;
+    }
+        
+
+    .card {
+        /* psition and size*/
+        top: -50px;
+        width: 400px; 
+    }
+
+}
+
+
+/*==========================================================================*/
+
+/*==========================================================================*/
+
+/*==========================================================================*/
+
+/*==========================================================================*/
+
+
+
+
+@media (min-width:620px) and (max-width: 1200px) {
+    
+     }
